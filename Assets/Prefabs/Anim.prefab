@@ -96,5 +96,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 360fd879a215dee48852aa648c80a52b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  material: {fileID: 2100000, guid: ed227f60b9d5c394a8766362c2b8f7f4, type: 2}
+  animRenderer: {fileID: 1192071183126489555}
   frame: 33
