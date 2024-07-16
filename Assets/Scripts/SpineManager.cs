@@ -62,7 +62,7 @@ public class SpineManager : MonoBehaviour
             {
                 var pos = vertices[i] - defaultVertices[i];
                 pos = new Vector3(pos.x+0.5f , pos.y+0.5f, pos.z);
-                var color = new Color(Mathf.Round(pos.x*100)/100f, Mathf.Round(pos.y*100)/100f, pos.z);
+                var color = new Color(pos.x, pos.y, pos.z);
                 int x = index%size.x;
                 int y = index/size.x;
                 index ++;
