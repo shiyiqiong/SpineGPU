@@ -303,7 +303,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spineObj: {fileID: 3174582093528044278, guid: 0a694a7bfc221e745ab3494f2da5252c, type: 3}
   animObj: {fileID: 7719245497042317241, guid: 8ba1837088e94184ebb7db5b7b0eff63, type: 3}
-  count: 10000
+  count: 5000
   frameRate: 60
 --- !u!1 &225718419
 GameObject:
@@ -636,7 +636,7 @@ Camera:
   m_GameObject: {fileID: 743233861}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 1
+  m_ClearFlags: 2
   m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
