@@ -1,11 +1,11 @@
-Unity版本：Unity 2022.3.17f1c1
+Unity版本：Unity 2022.3.17f1c1。
 
-Spine版本：3.8
+Spine版本：3.8。
 ***
-准备工作：将“Plugins.rar”文件解压后，放到Assets文件夹下
+准备工作：将“Plugins.rar”文件解压后，放到Assets文件夹下。
 ***
-烘焙场景：BakingScene
-播放场景：PlayScene
+- 烘焙场景：BakingScene
+- 播放场景：PlayScene
 ***
 GPU Spine动画原理：
 - 保存默认情况下spine动画网格文件；
