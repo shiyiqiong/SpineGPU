@@ -5,12 +5,17 @@ using UnityEngine;
 
 public class PlayAnim : MonoBehaviour
 {
-    public Material material;
     public int frame = 66;
     private int index;
+    Renderer animRenderer;
+    int indexId = Shader.PropertyToID("_Index");
+    MaterialPropertyBlock block;
+
     void Start()
     {
         index = 0;
+        animRenderer = GetComponent<Renderer>();
+        block = new MaterialPropertyBlock();
     }
 
     // Update is called once per frame
@@ -18,7 +23,8 @@ public class PlayAnim : MonoBehaviour
     {
         if(index < frame)
         {
-            material.SetInt("_Index", index);
+            block.SetInt(indexId, index);
+            animRenderer.SetPropertyBlock(block);
             index ++;
         }
         else
@@ -27,8 +33,4 @@ public class PlayAnim : MonoBehaviour
         }
     }
 
-    void OnDestroy()
-    {
-        material.SetInt("_Index", 0);
-    }
 }
